@@ -5,15 +5,21 @@
   "main": "index.js",
   "scripts": {
     "format": "prettier \"src/**/*.{js,html,ts,tsx}\" --write",
-    "lint":"eslint \"src/**/*{js,jsx,ts,tsx}\" --quiet",
+    "lint": "eslint \"src/**/*{js,jsx,ts,tsx}\" --quiet",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^12.0.10",
+    "@types/react": "^16.8.22",
+    "@types/react-dom": "^16.8.4",
+    "@typescript-eslint/parser": "^1.11.0",
     "eslint": "^6.0.1",
     "eslint-config-prettier": "^6.0.0",
-    "prettier": "^1.18.2"
+    "parcel-bundler": "^1.12.3",
+    "prettier": "^1.18.2",
+    "typescript": "^3.5.2"
   }
 }
