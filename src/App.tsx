@@ -1,11 +1,9 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
+import React from 'react';
 
-const App = () => {
-  return React.createElement(
-    "div",
-    {},
-    React.createElement("h1", {}, "Adopt Me!")
-  );
+export const App = () => {
+	return (
+		<div>
+			<h1>Hi Adopt me!</h1>
+		</div>
+	);
 };
-ReactDOM.render(React.createElement(App), document.getElementById("root"));
