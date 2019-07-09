@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
 export const App = () => {
-	return (
-		<div>
-			<h1>Hi Adopt me!</h1>
-		</div>
-	);
+  return (
+    <div>
+      <a href="http://local.log">Hi Adopt me!</a>
+    </div>
+  );
 };

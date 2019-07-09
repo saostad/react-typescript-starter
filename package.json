@@ -6,28 +6,31 @@
   "scripts": {
     "dev": "parcel src/index.html",
     "format": "prettier \"src/**/*.{js,html,ts,tsx}\" --write",
+    "format-file": "prettier --write",
     "lint": "eslint \"src/**/*{js,jsx,ts,tsx}\" --quiet"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^12.0.10",
-    "@types/react": "^16.8.22",
+    "@types/node": "^12.6.1",
+    "@types/react": "^16.8.23",
     "@types/react-dom": "^16.8.4",
     "@typescript-eslint/eslint-plugin": "^1.11.0",
     "@typescript-eslint/parser": "^1.11.0",
-    "babel-eslint": "^10.0.2",
+    "babel-eslint": "^9.0.0",
     "babel-plugin-import": "^1.12.0",
     "eslint": "^6.0.1",
     "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-flowtype": "^2.50.3",
     "eslint-plugin-import": "^2.18.0",
-    "eslint-plugin-jsx-a11y": "^6.2.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.14.2",
+    "eslint-plugin-react-hooks": "^1.5.0",
     "parcel-bundler": "^1.12.3",
     "prettier": "^1.18.2",
-    "typescript": "^3.5.2"
+    "typescript": "^3.5.3"
   },
   "dependencies": {
     "react": "^16.8.6",

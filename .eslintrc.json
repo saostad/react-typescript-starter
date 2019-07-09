@@ -1,5 +1,6 @@
 {
   "parser": "@typescript-eslint/parser",
+  "plugins": ["react-hooks"],
   "parserOptions": {
     "ecmaVersion": 2019,
     "sourceType": "module",
@@ -12,19 +13,23 @@
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
+    "plugin:import/typescript",
     "plugin:import/errors",
+    "plugin:import/warnings",
     "plugin:react/recommended",
     "plugin:jsx-a11y/recommended",
+    "plugin:prettier/recommended",
     "prettier",
     "prettier/@typescript-eslint",
-    "prettier/react",
-    "plugin:prettier/recommended"
+    "prettier/react"
   ],
   "rules": {
     "react/prop-types": 0,
     "no-console": 1,
     "@typescript-eslint/explicit-function-return-type": 0,
-    "@typescript-eslint/indent": 0
+    "@typescript-eslint/indent": 0,
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
   },
   "env": {
     "es6": true,
