@@ -1,5 +1,5 @@
 {
-  "parser": "@typescript-eslint/parser",
+  "parser": "babel-eslint",
   "plugins": ["react-hooks"],
   "parserOptions": {
     "ecmaVersion": 2019,
